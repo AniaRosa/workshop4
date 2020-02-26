@@ -1,16 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Workshops</title>
-    <link type="text/css" rel="stylesheet" href="main.css">
+    <title>Warsztaty</title>
+    <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <div id="app">
-
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+<form id="bookForm">
+    <label>Autor
+        <input name="author" />
+    </label>
+    <label>ISBN
+        <input name="isbn" />
+    </label>
+    <label>Tytuł
+        <input name="title" />
+    </label>
+    <label>Wydawca
+        <input name="publisher" />
+    </label>
+    <label>Typ
+        <input name="type" />
+    </label>
+    <button>Dodaj książkę</button>
+</form>
+<div id="app">
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>

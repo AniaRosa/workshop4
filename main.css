@@ -1,8 +1,35 @@
+.book {
+    max-width: 375px;
+}
 .book-title {
     background: #ddd;
     font-size: 20px;
     padding: 20px;
-    max-width: 250px;
     border: 1px solid black;
     margin-top: 20px;
+}
+.book-details:empty {
+    padding: 0;
+    border: 0;
+}
+.book-details {
+    border: 1px solid black;
+    border-top: 0;
+    background: white;
+    padding: 20px;
+}
+.book-delete{
+    background: #ddd;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 75px;
+    float: right;
+}
+label {
+    display: block;
+    margin-top: 5px;
+}
+button {
+    margin-top: 10px;
 }
